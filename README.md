@@ -1,7 +1,7 @@
 # terraform-output-parser
 
 ## Why?
-Currently I use Terraform to deploy helm releases, using the [Helm Provider](https://registry.terraform.io/providers/hashicorp/helm/latest/docs) for Terraform.
+Sometimes I use Terraform to deploy helm releases, using the [Helm Provider](https://registry.terraform.io/providers/hashicorp/helm/latest/docs) for Terraform.
 
 Althought it works fine, it still have some room for improvement (ex: [this issue](https://github.com/hashicorp/terraform-provider-helm/issues/1121)).
 
