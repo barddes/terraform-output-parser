@@ -5,7 +5,7 @@ Sometimes I use Terraform to deploy helm releases, using the [Helm Provider](htt
 
 Althought it works fine, it still have some room for improvement (ex: [this issue](https://github.com/hashicorp/terraform-provider-helm/issues/1121)).
 
-Thinking about this specific issue and tired of spamming my console window with a bunch of lines because of it, I wrote this simple wrapper that parses my output giving me fewer lines and better diffs.
+Thinking about this specific issue and tired of spamming my console with a bunch of lines because of it, I wrote this simple wrapper that parses my output giving me fewer lines and better diffs.
 It detects `helm_release` blocks and:
 - hide metadata values
 - better diff values
